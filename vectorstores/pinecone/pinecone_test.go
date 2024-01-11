@@ -8,12 +8,12 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/pinecone"
+	"github.com/tuhochi/langchaingo/chains"
+	"github.com/tuhochi/langchaingo/embeddings"
+	"github.com/tuhochi/langchaingo/llms/openai"
+	"github.com/tuhochi/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/vectorstores"
+	"github.com/tuhochi/langchaingo/vectorstores/pinecone"
 )
 
 func getValues(t *testing.T) (string, string, string, string) {

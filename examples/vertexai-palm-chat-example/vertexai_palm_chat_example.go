@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tmc/langchaingo/llms/vertexai"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/llms/vertexai"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 func main() {

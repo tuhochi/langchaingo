@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/llms"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 func newChatClient(t *testing.T) *Chat {

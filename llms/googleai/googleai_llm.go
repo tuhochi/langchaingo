@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/google/generative-ai-go/genai"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/llms"
+	"github.com/tuhochi/langchaingo/schema"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 )

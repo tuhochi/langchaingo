@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/pinecone-vectorstore-example
+module github.com/tuhochi/langchaingo/examples/pinecone-vectorstore-example
 
 go 1.21
 
@@ -6,7 +6,7 @@ toolchain go1.21.4
 
 require (
 	github.com/google/uuid v1.3.1
-	github.com/tmc/langchaingo v0.1.3
+	github.com/tuhochi/langchaingo v0.1.3
 )
 
 require (

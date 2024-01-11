@@ -5,8 +5,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
+	"github.com/tuhochi/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/textsplitter"
 )
 
 // Text loads text data from an io.Reader.

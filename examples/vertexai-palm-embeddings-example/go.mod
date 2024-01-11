@@ -1,10 +1,10 @@
-module github.com/tmc/langchaingo/examples/vertexai-palm-embeddings-example
+module github.com/tuhochi/langchaingo/examples/vertexai-palm-embeddings-example
 
 go 1.21
 
 toolchain go1.21.4
 
-require github.com/tmc/langchaingo v0.1.3
+require github.com/tuhochi/langchaingo v0.1.3
 
 require (
 	cloud.google.com/go v0.110.7 // indirect

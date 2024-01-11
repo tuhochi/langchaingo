@@ -3,7 +3,7 @@ package prompts
 import (
 	"fmt"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 var _ schema.PromptValue = ChatPromptValue{}

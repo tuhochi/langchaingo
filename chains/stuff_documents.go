@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/memory"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 const (

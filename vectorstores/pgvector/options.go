@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/tuhochi/langchaingo/embeddings"
 )
 
 const (

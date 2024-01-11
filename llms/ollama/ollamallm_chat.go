@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/ollama/internal/ollamaclient"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/callbacks"
+	"github.com/tuhochi/langchaingo/llms"
+	"github.com/tuhochi/langchaingo/llms/ollama/internal/ollamaclient"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 // LLM is a ollama LLM implementation.

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/prompts"
+	"github.com/tuhochi/langchaingo/callbacks"
+	"github.com/tuhochi/langchaingo/llms/openai"
+	"github.com/tuhochi/langchaingo/prompts"
 )
 
 func TestLLMChain(t *testing.T) {

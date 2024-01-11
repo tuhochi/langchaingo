@@ -1,6 +1,6 @@
 package vectorstores
 
-import "github.com/tmc/langchaingo/embeddings"
+import "github.com/tuhochi/langchaingo/embeddings"
 
 // Option is a function that configures an Options.
 type Option func(*Options)

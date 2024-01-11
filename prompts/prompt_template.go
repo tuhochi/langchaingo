@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 var (

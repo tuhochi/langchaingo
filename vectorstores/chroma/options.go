@@ -6,7 +6,7 @@ import (
 	"os"
 
 	chromago "github.com/amikos-tech/chroma-go"
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/tuhochi/langchaingo/embeddings"
 )
 
 const (

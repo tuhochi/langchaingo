@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tmc/langchaingo/llms/ernie/internal/ernieclient"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/llms/ernie/internal/ernieclient"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 func TestNewChat(t *testing.T) {

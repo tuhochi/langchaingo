@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/tools/sqldatabase"
-	_ "github.com/tmc/langchaingo/tools/sqldatabase/mysql"
+	"github.com/tuhochi/langchaingo/tools/sqldatabase"
+	_ "github.com/tuhochi/langchaingo/tools/sqldatabase/mysql"
 )
 
 func Test(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 func TestChatMessageHistory(t *testing.T) {

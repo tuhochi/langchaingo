@@ -1,10 +1,10 @@
-module github.com/tmc/langchaingo/examples/huggingface-llm-example
+module github.com/tuhochi/langchaingo/examples/huggingface-llm-example
 
 go 1.21
 
 toolchain go1.21.4
 
-require github.com/tmc/langchaingo v0.1.3
+require github.com/tuhochi/langchaingo v0.1.3
 
 require (
 	github.com/dlclark/regexp2 v1.8.1 // indirect

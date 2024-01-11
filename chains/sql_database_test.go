@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/tools/sqldatabase"
-	"github.com/tmc/langchaingo/tools/sqldatabase/mysql"
+	"github.com/tuhochi/langchaingo/llms/openai"
+	"github.com/tuhochi/langchaingo/tools/sqldatabase"
+	"github.com/tuhochi/langchaingo/tools/sqldatabase/mysql"
 )
 
 func TestSQLDatabaseChain_Call(t *testing.T) {

@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 // defaultConversationWindowSize is the default number of previous conversation.

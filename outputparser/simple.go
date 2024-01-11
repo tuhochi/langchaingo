@@ -3,7 +3,7 @@ package outputparser
 import (
 	"strings"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 // Simple is an output parser that does nothing.

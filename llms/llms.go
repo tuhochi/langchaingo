@@ -3,7 +3,7 @@ package llms
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 // LLM is a langchaingo Large Language Model.

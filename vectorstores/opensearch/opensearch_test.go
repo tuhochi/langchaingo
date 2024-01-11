@@ -10,12 +10,12 @@ import (
 	"github.com/google/uuid"
 	opensearchgo "github.com/opensearch-project/opensearch-go"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/opensearch"
+	"github.com/tuhochi/langchaingo/chains"
+	"github.com/tuhochi/langchaingo/embeddings"
+	"github.com/tuhochi/langchaingo/llms/openai"
+	"github.com/tuhochi/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/vectorstores"
+	"github.com/tuhochi/langchaingo/vectorstores/opensearch"
 )
 
 func getEnvVariables(t *testing.T) (string, string, string) {

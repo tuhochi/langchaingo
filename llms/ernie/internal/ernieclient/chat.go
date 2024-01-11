@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 const (

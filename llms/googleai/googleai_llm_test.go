@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/tuhochi/langchaingo/llms"
+	"github.com/tuhochi/langchaingo/schema"
 )
 
 func newClient(t *testing.T) *GoogleAI {
@@ -117,7 +117,7 @@ func TestMultiContentImage(t *testing.T) {
 	llm := newClient(t)
 
 	parts := []llms.ContentPart{
-		llms.ImageURLContent{URL: "https://github.com/tmc/langchaingo/blob/main/docs/static/img/parrot-icon.png?raw=true"},
+		llms.ImageURLContent{URL: "https://github.com/tuhochi/langchaingo/blob/main/docs/static/img/parrot-icon.png?raw=true"},
 		llms.TextContent{Text: "describe this image in detail"},
 	}
 	content := []llms.MessageContent{
